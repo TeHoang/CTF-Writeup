@@ -126,7 +126,7 @@ print(L)
 
 ## Solution
 Note:
-
+```math
 $$
 \begin{aligned}
 A &= 
@@ -148,7 +148,7 @@ b_{N-1}
 C &= flag
 \end{aligned}
 $$
-
+```
 Sau một hồi quan sát code và nháp thì chúng ta sẽ có các đẳng thức sau:
 $$
 \begin{aligned}

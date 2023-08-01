@@ -60,7 +60,7 @@ while True:
 
 ## Solution
 
-Gửi cho server $(r^e*ct)\pmod{n}$ sao cho $(r, 15)=1$, lúc này ta sẽ có được $pt = (r^e*ct)^d \equiv (r*flag) \pmod{n}$. Nhân $r^{-1}$ vào $pt$ thì ta sẽ có được $flag$
+Gửi cho server $(r^e*ct)$ $\pmod{n}$ sao cho $(r, 15)=1$, lúc này ta sẽ có được $pt = (r^e*ct)^d \equiv (r*flag) \pmod{n}$. Nhân $r^{-1}$ vào $pt$ thì ta sẽ có được $flag$
 
 ```python
 from Crypto.Util.number import long_to_bytes as ltb

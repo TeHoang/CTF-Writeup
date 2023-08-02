@@ -14,7 +14,7 @@ Phần tiếp theo của fizzbuzz100, bây giờ đề sẽ không trả về $p
 
 Mình sẽ đặt m là flag để tiện, chúng ta sẽ phân tích ba trường hợp khi chúng ta gửi $(ct * 3^e)$ (thực ra là hai và loại trừ ra trường hợp còn lại):
 
-Khi này server sẽ decrypt và tính ra $ pt = 3*m$
+Khi này server sẽ decrypt và tính ra $pt = 3*m$
 
 * Trường hợp đầu tiên:  $m < \dfrac{n}{3}$
 
@@ -29,7 +29,7 @@ $$
 
 Vậy ta sẽ nhận được "Fizz"
 
-* Trường hợp thứ hai: $ \dfrac{2n}{3} < m < n$
+* Trường hợp thứ hai: $\dfrac{2n}{3} < m < n$
 
 Để ý rằng $n - m < n - \dfrac{2n}{3} = \dfrac{n}{3}$
 

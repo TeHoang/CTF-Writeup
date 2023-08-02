@@ -10,7 +10,7 @@ can you see it?
 
 ## Solution
 Note:
-
+```math
 $$
 \begin{aligned}
 A &= 
@@ -32,8 +32,9 @@ b_{N-1}
 C &= flag
 \end{aligned}
 $$
-
+```
 Sau một hồi quan sát code và nháp thì chúng ta sẽ có các đẳng thức sau:
+```math
 $$
 \begin{aligned}
 L_0 &= a_{0,0} + b_0 + flag \\
@@ -46,5 +47,5 @@ L_6 &= a_{0,0} + a_{0,1} + a_{0,2} + a_{1,1} + a_{1,2} + a_{2,2} + b_0 + b_1 + b
 
 \end{aligned}
 $$
-
+```
 Ta thu được $flag$ bằng $L_0 + L_1 + L_3 + L_6 - L_2 - L_4 - L_5$

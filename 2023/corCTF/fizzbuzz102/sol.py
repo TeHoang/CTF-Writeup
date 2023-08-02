@@ -56,4 +56,4 @@ def solve():
 
 solve()
 
-# corctf{''.join(fizz_buzz(x) for x in range(99, 102)) == "FizzBuzz101" == cool_username}
+# corctf{fizzbuzz_1s_4_r4th3r_s1lly_f0rm_0f_l34k4g3_d0nt_y0u_th1nk?n0w_w1th_4dd3d_LCG_f0r_fun!}

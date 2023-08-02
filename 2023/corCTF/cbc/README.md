@@ -9,7 +9,7 @@ who on earth is putting CLASSICAL BORING CRYPTOGRAPHY in my ctf
 ```
 
 ## Solution
-Note: $ \{A, B, \dots, Z \}= \{0, 1, \dots, 25\}$ 
+Note: $\{A, B, \dots, Z \}= \{0, 1, \dots, 25\}$ 
 
 
 Đặt $a_i$ là các kí tự của flag và $c_i$ là các kí tự của ciphertext

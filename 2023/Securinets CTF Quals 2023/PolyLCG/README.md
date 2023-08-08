@@ -14,7 +14,7 @@ We are given $c_x$ and $c_y$, each of which contains 3 integers and a modulo $p$
 
 If we have $x_i$ and $y_i$ as the current state for $x$ and $y$, $x_{i+1}$ and $y_{i+i}$ will be calculated by the following formula:
 
-<!-- ```math -->
+```math
 $$
 \begin{aligned}
 
@@ -22,7 +22,7 @@ x_{i+1} &\equiv c_{x, 0} + c_{x, 1}x_i + c_{x, 2}x_i ^2 \pmod{p}\\
 y_{i+1} &\equiv c_{y, 0} + c_{y, 1}y_i + c_{y, 2}y_i ^2 \pmod{p} \\
 \end{aligned}
 $$
-
+```
 The encryption function encrypt the $flag$ bit by bit:
 
 Convert the $flag$'s value to binary with 512 digits
